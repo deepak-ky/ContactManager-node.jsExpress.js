@@ -1,0 +1,30 @@
+{
+  "name": "contactmanager-nodejsexpressjs",
+  "version": "1.0.0",
+  "description": "Topics that are covered:\r 1. Express Project Setup\r 2. Create Express Server\r 3. Thunder Client Setup\r 4. Express Router Setup\r 5. Error Handling / Async Handler\r 6. Express MiddleWare\r 7. MongoDB Setup\r 8. Mongoose Schema\r 9. CRUD API\r 10. User Authentication\r 11. Registration and Login Endpoints\r 12. Controllers And DB Operations\r 13. Password Hashing and Comparing\r 14. Sign/Verify JWT Token\r 15. Handle Relationships\r 16. Protected Routes\r 17. User Authorization\r 18. API Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepak-ky/ContactManager-node.jsExpress.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-ky/ContactManager-node.jsExpress.js/issues"
+  },
+  "homepage": "https://github.com/deepak-ky/ContactManager-node.jsExpress.js#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
